@@ -1,0 +1,25 @@
+body {
+    height: 500vh;
+}
+.esquerda {
+    background-color: blueviolet;
+    position: relative;
+    padding: 3vw; 
+    margin: 0px
+}
+.div1 {
+    background-color: chartreuse;
+    position: absolute;
+    top:25%;
+    left: 42.5vw;
+    padding: 20px 100px;
+}
+.redonda {
+    width: 120px;
+    height: 120px; 
+    background-color: red;
+    border-radius: 100%;
+    position: fixed;
+    bottom: 0px;
+    right: 0px;
+}

@@ -1,0 +1,90 @@
+/* corpo preto e centralização via flex */
+body {
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #000;
+  }
+  
+
+  .borda {
+    width: 95vw;     /* 80% da largura da tela */
+    height: 90vh;    /* 50% da altura da tela */
+    position: relative;
+    background-color: #fff;
+  }
+  
+  /* retângulo vermelho centrado dentro da borda */
+  .quadrado-externo {
+    width: 40vw;     /* metade da borda em largura */
+    height: 60vh;    /* metade da borda em altura */
+    position: absolute;
+    top: 50%; left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #e10f0f;
+  }
+  
+  /* retângulo verde com "padding" interno aproximado */
+  .quadrado-meio {
+    width: 32vw;     /* 40vw − 2×4vw */
+    height: 45vh;    /* 25vh − 2×3.5vh */
+    position: absolute;
+    top: 7vh;      /* desloca de cima */
+    left: 4vw;       /* desloca da esquerda */
+    background-color: #4cffb6;
+  }
+  
+  /* círculos redondos */
+  .circulo1,
+  .circulo2,
+  .circulo3,
+  .circulo4,
+  .circulo5 {
+    position: absolute;
+    width: 10vh;       /* diâmetro = 6% da altura da tela */
+    height: 10vh;
+    border-radius: 50%;
+  }
+  
+  /* topo (amarelo) */
+  .circulo1 {
+    background-color: #ffff99;
+    top: -3vh;        /* – metade do diâmetro */
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  
+  /* direita (azul-claro) */
+  .circulo2 {
+    background-color: #a4e9ff;
+    top: 50%;
+    right: -3vh;
+    transform: translateY(-50%);
+  }
+  
+  /* baixo (marrom) */
+  .circulo3 {
+    background-color: #2b0b0b;
+    bottom: -3vh;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  
+  /* esquerda (rosa) */
+  .circulo4 {
+    background-color: #ffa4ff;
+    top: 50%;
+    left: -3vh;
+    transform: translateY(-50%);
+  }
+  
+  /* centro (azul escuro) */
+  .circulo5 {
+    background-color: #0d0dff;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  

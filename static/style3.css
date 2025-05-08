@@ -1,0 +1,62 @@
+.esquerda {
+    position: relative;
+    margin: 8vh 5vh;
+    height: 84vh;
+    width: 40vh;
+    background-color: red;
+}
+.div1 {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    margin: 5vh;
+    background-color: chartreuse;
+    height: 8vh;
+    width: 15vw;
+}
+.div2 {
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    margin: 5vh;
+    background-color: black;
+    height: 8vh;
+    width: 15vw;
+}
+.sDireita {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    margin: 0px;
+    background-color: green;
+    height: 20vh;
+    width: 35vw;
+}
+.sDiv {
+    position: relative;
+    top: 10vh;
+    left: 18vw;
+    margin: 0px;
+    background-color: black;
+    height: 10vh;
+    width: 17vw;
+}
+
+.iDireita {
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    margin: 0px;
+    background-color: blue;
+    height: 50vh;
+    width: 30vw;
+}
+.iDiv {
+    position: relative;
+    top: 1vh;
+    left: 0vw;
+    margin: 0px;
+    background-color: black;
+    height: 10vh;
+    width: 17vw;
+}
