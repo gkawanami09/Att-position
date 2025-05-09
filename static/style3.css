@@ -41,6 +41,9 @@
     height: 10vh;
     width: 17vw;
 }
+.sDireita:hover {
+    animation: troca 5s linear infinite alternate;
+}
 
 .iDireita {
     position: absolute;
@@ -60,3 +63,51 @@
     height: 10vh;
     width: 17vw;
 }
+
+@keyframes troca {
+    0% {
+        position: absolute;
+        top: 0px;
+        right: 0px;
+        margin: 0px;
+        background-color: green;
+        height: 20vh;
+        width: 35vw;
+    }
+    25% {
+        position: absolute;
+        top: 115px;
+        right: 0px;
+        margin: 0px;
+        background-color: green;
+        height: 20vh;
+        width: 35vw;
+    }
+    50% {
+        position: absolute;
+        top: 225px;
+        right: 0px;
+        margin: 0px;
+        background-color: green;
+        height: 20vh;
+        width: 35vw;
+    }
+    75%{
+        position: absolute;
+        top: 225px;
+        right: 100px;
+        margin: 0px;
+        background-color: green;
+        height: 20vh;
+        width: 35vw;
+    }
+    100% {
+        position: absolute;
+        top: 225px;
+        right: 200px;
+        margin: 0px;
+        background-color: green;
+        height: 20vh;
+        width: 35vw;
+    }
+}   
